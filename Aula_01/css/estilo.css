@@ -1,0 +1,15 @@
+#n1, #n2{
+    height: 30px;
+    border: 1 solid #808080;
+    border-radius: 5px;
+}
+
+#btt{
+    border: none;
+    background-color: green;
+    color: #ffffff;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            input[type=checkbox] {
+                position: relative;
+                cursor: pointer;
+            }
+
+            input[type=checkbox]:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 0;
+                left: 0;
+                background-color: #ffffff;
+                border: 2px solid #2196F3;
+            }
+
+            input[type=checkbox]:checked:after {
+                content: "";
+                display: block;
+                width: 5px;
+                height: 10px;
+                border: solid #2196F3;
+                border-width: 0 3px 3px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+                position: absolute;
+                top: 5px;
+                left: 9px;
+            }
+            
+            .box{
+                margin: auto;
+                width: 120px;
+                height: 120px;
+                border: 1px solid black
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <div class="box">
+            <input type="checkbox">
+        </div>
+        
+    </body>
+</html>
